@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES5", 
+      "module": "NodeNext", 
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "out/",
+      "moduleResolution": "nodenext",
+      "noImplicitAny": false,
+      "types":["node"]
+    },
+    "include": [
+      "src/**/*"
+    ]
+  }

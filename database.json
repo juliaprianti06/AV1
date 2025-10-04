@@ -1,0 +1,134 @@
+{
+  "aeronaves": [
+    {
+      "codigo": "123456",
+      "modelo": "lala",
+      "tipo": "Comercial",
+      "capacidade": 10,
+      "alcance": 1000,
+      "pecas": [
+        {
+          "nome": "banco",
+          "tipo": "Importada",
+          "fornecedor": "embraer",
+          "status": "Pronta para Uso"
+        },
+        {
+          "nome": "banco",
+          "tipo": "Importada",
+          "fornecedor": "embraer",
+          "status": "Pronta para Uso"
+        }
+      ],
+      "etapas": [
+        {
+          "status": "Pendente",
+          "funcionarios": "Pendente",
+          "nome": "por o painel",
+          "prazo": "21/10/2025"
+        }
+      ],
+      "teste": []
+    },
+    {
+      "codigo": "12456",
+      "modelo": "lele",
+      "tipo": "Militar",
+      "capacidade": 30,
+      "alcance": 1000,
+      "pecas": [],
+      "etapas": [],
+      "teste": []
+    },
+    {
+      "codigo": "5678",
+      "modelo": "lili",
+      "tipo": "Militar",
+      "capacidade": 20,
+      "alcance": 1000,
+      "pecas": [],
+      "etapas": [
+        {
+          "status": "Pendente",
+          "funcionarios": "Pendente",
+          "nome": "pintar",
+          "prazo": "21/10/2025"
+        }
+      ],
+      "teste": []
+    },
+    {
+      "codigo": "1234",
+      "modelo": "lalala",
+      "tipo": "Comercial",
+      "capacidade": 20,
+      "alcance": 1000,
+      "pecas": [
+        {
+          "nome": "motor",
+          "tipo": "Importada",
+          "fornecedor": "aero",
+          "status": "Pronta para Uso"
+        }
+      ],
+      "etapas": [
+        {
+          "status": "Pendente",
+          "funcionarios": "Pendente",
+          "nome": "por cadeiras",
+          "prazo": "21/10/2025"
+        }
+      ],
+      "teste": []
+    }
+  ],
+  "funcionarios": [
+    {
+      "id": "12345",
+      "nome": "Arakaki da Silva",
+      "telefone": "12 988888",
+      "endereco": "rua da matematica, sjc",
+      "usuario": "arakaki@gmail",
+      "senha": "1234",
+      "nivelPermissao": "Administrador"
+    },
+    {
+      "id": "123",
+      "nome": "Gerson da Penha",
+      "telefone": "12 98885555",
+      "endereco": "rua do poo, sjc",
+      "usuario": "gerson@gmail",
+      "senha": "1234",
+      "nivelPermissao": "Engenheiro"
+    },
+    {
+      "id": "1234",
+      "nome": "julia",
+      "telefone": "1298888",
+      "endereco": "sjc",
+      "usuario": "julia@gmail",
+      "senha": "1234",
+      "nivelPermissao": "Administrador"
+    },
+    {
+      "id": "4567",
+      "nome": "Celia",
+      "telefone": "12 988888",
+      "endereco": "sjc",
+      "usuario": "celia@gmail",
+      "senha": "1234",
+      "nivelPermissao": "Operador"
+    },
+    {
+      "id": "1235",
+      "nome": "lala",
+      "telefone": "2344555",
+      "endereco": "lalal",
+      "usuario": "alal@",
+      "senha": "123",
+      "nivelPermissao": "Operador"
+    }
+  ],
+  "pecas": [],
+  "etapas": []
+}
