@@ -73,8 +73,13 @@ var Relatorio = /** @class */ (function () {
         return conteudo;
     };
     Relatorio.salvarRelatorio = function (conteudo, nomeArquivo) {
-        fs.writeFileSync(nomeArquivo, conteudo, "utf-8");
-        console.log("\nRelat\u00F3rio salvo com sucesso no arquivo: ".concat(nomeArquivo));
+        var pasta = "relatorios";
+        if (!fs.existsSync(pasta)) {
+            fs.mkdirSync(pasta);
+        }
+        var caminhoCompleto = "".concat(pasta, "/").concat(nomeArquivo);
+        fs.writeFileSync(caminhoCompleto, conteudo, "utf-8");
+        console.log("\nRelatorio salvo com sucesso em: ".concat(caminhoCompleto));
     };
     return Relatorio;
 }());

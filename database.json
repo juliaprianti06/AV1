@@ -11,7 +11,7 @@
           "nome": "banco",
           "tipo": "Importada",
           "fornecedor": "embraer",
-          "status": "Pronta para Uso"
+          "status": "Em Transporte"
         },
         {
           "nome": "banco",
@@ -127,8 +127,43 @@
       "usuario": "alal@",
       "senha": "123",
       "nivelPermissao": "Operador"
+    },
+    {
+      "id": "1567",
+      "nome": "Gustavo",
+      "telefone": "12 988777444",
+      "endereco": "sjc",
+      "usuario": "gu@gmail",
+      "senha": "1234",
+      "nivelPermissao": "Engenheiro"
+    },
+    {
+      "id": "789",
+      "nome": "julia",
+      "telefone": "1233333",
+      "endereco": "sjc",
+      "usuario": "julia@gmail",
+      "senha": "1234",
+      "nivelPermissao": "Administrador"
     }
   ],
   "pecas": [],
-  "etapas": []
+  "etapas": [
+    {
+      "status": "Pendente",
+      "funcionarios": [
+        {
+          "id": "123",
+          "nome": "Gerson da Penha",
+          "telefone": "12 98885555",
+          "endereco": "rua do poo, sjc",
+          "usuario": "gerson@gmail",
+          "senha": "1234",
+          "nivelPermissao": "Engenheiro"
+        }
+      ],
+      "nome": "por asa",
+      "prazo": "21/10/2025"
+    }
+  ]
 }

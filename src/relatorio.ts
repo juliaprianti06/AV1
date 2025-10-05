@@ -54,9 +54,16 @@ export class Relatorio {
     return conteudo;
   }
 
-  
   public static salvarRelatorio(conteudo: string, nomeArquivo: string): void {
-    fs.writeFileSync(nomeArquivo, conteudo, "utf-8");
-    console.log(`\nRelatório salvo com sucesso no arquivo: ${nomeArquivo}`);
+  const pasta = "relatorios"
+
+  if (!fs.existsSync(pasta)) {
+    fs.mkdirSync(pasta)
   }
+
+  const caminhoCompleto = `${pasta}/${nomeArquivo}`
+  fs.writeFileSync(caminhoCompleto, conteudo, "utf-8")
+  console.log(`\nRelatorio salvo com sucesso em: ${caminhoCompleto}`)
 }
+}
+
